@@ -7,8 +7,8 @@ import "./Pokemon.css"; // Import the CSS file
 // API :  https://pokeapi.co/api/v2/pokemon/1
 
 const Pokemon = () => {
-  const [num, setnum] = useState();
-  const [name, setname] = useState();
+  const [num, setnum] = useState("1");
+  const [name, setname] = useState("");
   const [moves, setmoves] = useState();
   const [heroMoves, setHeroMoves] = useState([]);
   const [showMoves, setShowMoves] = useState(false);
